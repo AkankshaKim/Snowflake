@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-image: url(./images/snowgirl.jpg);
+  background-size: cover;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .snowcontainer {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+  }
+
+  .snow {
+    height: 18px;
+    border-radius: 9px;
+    width: 18px;
+    position: absolute;
+    top: -20px;
+    background-color: #ffffff;
+  }
+
+  .snow1 {
+    animation: snow1 5s linear 0s infinite;
+  }
+
+  .snow2 {
+    animation: snow2 6s linear 1s infinite;
+  }
+
+  .snow3 {
+    animation: snow3 7s linear 2s infinite;
+  }
+
+  .snowimage {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: -20px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    /* background-image: url(./images/pngimg.com\ -\ snowflakes_PNG7551.png); */
+  }
+
+  .snowimg1 {
+    animation: snowimg1 8s linear 3s infinite;
+  }
+
+  .snowimg2 {
+    animation: snowimg2 3s linear 3s infinite;
+  }
+
+  .snowimg3 {
+    animation: snowimg3 4s linear 1s infinite;
+  }
+
+  .snowimg4 {
+    animation: snowimg4 9s linear 4s infinite;
+  }
+
+  @keyframes snowimg1 {
+    0% { top:0%; left: 40%;}
+    100%{ top: 100%; left: 35%;}
+  }
+
+  @keyframes snowimg2 {
+    0% { top:0%; left: 80%;}
+    100%{ top: 100%; left: 75%;}
+  }
+
+  @keyframes snowimg3 {
+    0% { top:0%; left: 20%;}
+    100%{ top: 100%; left: 25%;}
+  }
+
+  @keyframes snowimg4 {
+    0% { top:0%; left: 80%;}
+    100%{ top: 100%; left: 40%;}
+  }
+
+  @keyframes snow1 {
+    0% { top: 0%; left: 50%; }
+    100% { top: 100%; left: 65%; }
+  }
+
+  @keyframes snow2 {
+    0% { top: 0%; left: 30%; }
+    100% { top: 100%; left: 25%; }
+  }
+
+  @keyframes snow3 {
+    0% { top: 0%; left: 70%; }
+    100% { top: 100%; left: 60%; }
+  }
+}
